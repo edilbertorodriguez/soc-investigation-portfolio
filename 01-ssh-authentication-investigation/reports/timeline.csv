@@ -1,0 +1,13 @@
+timestamp_utc,event,source,client_port,observed_source_ip,target_ip
+2026-10-28T04:11:51.4379041Z,Operator UTC test start,operator,,10.10.30.60,10.10.60.60
+2026-10-28T04:11:57.821Z,Failed-password TCP connection starts,Zeek screenshot,50644,10.10.30.60,10.10.60.60
+2026-10-28T04:12:05.918308Z,Failed password 1,journald transcript,50644,10.10.30.60,10.10.60.60
+2026-10-28T04:12:13.968497Z,Failed password 2,journald transcript,50644,10.10.30.60,10.10.60.60
+2026-10-28T04:12:23.806790Z,Failed password 3,journald transcript,50644,10.10.30.60,10.10.60.60
+2026-10-28T04:12:25.755Z,Rule 5760 timestamp for final failure,Wazuh JSON,50644,10.10.30.60,10.10.60.60
+2026-10-28T04:12:26.155245Z,Connection reset,journald transcript,50644,10.10.30.60,10.10.60.60
+2026-10-28T04:12:39.637Z,Successful-login TCP connection starts,Zeek screenshot,50677,10.10.30.60,10.10.60.60
+2026-10-28T04:12:44.878751Z,Password accepted,journald transcript,50677,10.10.30.60,10.10.60.60
+2026-10-28T04:12:44.879732Z,Session opened,journald transcript,50677,10.10.30.60,10.10.60.60
+2026-10-28T04:12:45.757Z,Rule 5715 timestamp,Wazuh JSON,50677,10.10.30.60,10.10.60.60
+2026-10-28T04:12:59Z,Clock output inside successful session,operator,50677,10.10.30.60,10.10.60.60

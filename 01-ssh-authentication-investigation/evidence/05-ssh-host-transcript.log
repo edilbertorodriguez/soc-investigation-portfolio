@@ -1,0 +1,8 @@
+2026-10-28T04:12:04.069362+0000 scanme sshd[2089]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.30.60  user=blueteam
+2026-10-28T04:12:05.918308+0000 scanme sshd[2089]: Failed password for blueteam from 10.10.30.60 port 50644 ssh2
+2026-10-28T04:12:13.968497+0000 scanme sshd[2089]: Failed password for blueteam from 10.10.30.60 port 50644 ssh2
+2026-10-28T04:12:23.806790+0000 scanme sshd[2089]: Failed password for blueteam from 10.10.30.60 port 50644 ssh2
+2026-10-28T04:12:26.155245+0000 scanme sshd[2089]: Connection reset by authenticating user blueteam 10.10.30.60 port 50644 [preauth]
+2026-10-28T04:12:26.155742+0000 scanme sshd[2089]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.30.60  user=blueteam
+2026-10-28T04:12:44.878751+0000 scanme sshd[2091]: Accepted password for blueteam from 10.10.30.60 port 50677 ssh2
+2026-10-28T04:12:44.879732+0000 scanme sshd[2091]: pam_unix(sshd:session): session opened for user blueteam(uid=1000) by (uid=0)

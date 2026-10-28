@@ -1,0 +1,95 @@
+{
+  "_index": "wazuh-alerts-4.x-2026.10.28",
+  "_score": null,
+  "_id": "_ua1gKEBRLpb20Tl6AXC",
+  "_source": {
+    "predecoder": {
+      "hostname": "scanme",
+      "program_name": "sshd",
+      "timestamp": "Oct 28 04:12:44"
+    },
+    "input": {
+      "type": "log"
+    },
+    "agent": {
+      "ip": "10.10.60.60",
+      "name": "scanme",
+      "id": "001"
+    },
+    "manager": {
+      "name": "wazuh-manager"
+    },
+    "data": {
+      "srcip": "10.10.30.60",
+      "dstuser": "blueteam",
+      "srcport": "50677"
+    },
+    "rule": {
+      "mail": false,
+      "level": 3,
+      "hipaa": [
+        "164.312.b"
+      ],
+      "pci_dss": [
+        "10.2.5"
+      ],
+      "tsc": [
+        "CC6.8",
+        "CC7.2",
+        "CC7.3"
+      ],
+      "description": "sshd: authentication success.",
+      "groups": [
+        "syslog",
+        "sshd",
+        "authentication_success"
+      ],
+      "nist_800_53": [
+        "AU.14",
+        "AC.7"
+      ],
+      "gdpr": [
+        "IV_32.2"
+      ],
+      "firedtimes": 1,
+      "mitre": {
+        "technique": [
+          "Valid Accounts",
+          "Remote Services"
+        ],
+        "id": [
+          "T1078",
+          "T1021"
+        ],
+        "tactic": [
+          "Defense Evasion",
+          "Persistence",
+          "Privilege Escalation",
+          "Initial Access",
+          "Lateral Movement"
+        ]
+      },
+      "id": "5715",
+      "gpg13": [
+        "7.1",
+        "7.2"
+      ]
+    },
+    "location": "journald",
+    "decoder": {
+      "parent": "sshd",
+      "name": "sshd"
+    },
+    "id": "1793160765.6743",
+    "full_log": "Oct 28 04:12:44 scanme sshd[2091]: Accepted password for blueteam from 10.10.30.60 port 50677 ssh2",
+    "timestamp": "2026-10-28T04:12:45.757+0000"
+  },
+  "fields": {
+    "timestamp": [
+      "2026-10-28T04:12:45.757Z"
+    ]
+  },
+  "sort": [
+    1793160765757
+  ]
+}

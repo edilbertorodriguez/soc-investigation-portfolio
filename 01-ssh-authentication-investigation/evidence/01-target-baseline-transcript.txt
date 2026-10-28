@@ -1,0 +1,7 @@
+User-supplied baseline, not a directly acquired export:
+scanme
+ens18 UP 10.10.60.60/24
+2026-10-28T04:01:21+00:00
+NTPSynchronized=yes
+ssh: active
+wazuh-agent: active
