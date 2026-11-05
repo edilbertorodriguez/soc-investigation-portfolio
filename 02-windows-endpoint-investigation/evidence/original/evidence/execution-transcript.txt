@@ -1,0 +1,438 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261105131520
+Username: DESKTOP-P4H3Q32\WinLab
+RunAs User: DESKTOP-P4H3Q32\WinLab
+Configuration Name: 
+Machine: DESKTOP-P4H3Q32 (Microsoft Windows NT 10.0.26300.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7272
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\SOC-Lab\LAB-WIN-002-20261105-131452\evidence\execution-transcript.txt
+PS C:\WINDOWS\system32> $caseStart = (Get-Date).ToUniversalTime()
+PS C:\WINDOWS\system32> $caseStart.ToString("o") | Set-Content "$caseRoot\evidence\case-start-utc.txt"
+PS C:\WINDOWS\system32> Write-Output "Evidence folder: $caseRoot"
+Evidence folder: C:\SOC-Lab\LAB-WIN-002-20261105-131452
+PS C:\WINDOWS\system32> Write-Output "Start UTC: $($caseStart.ToString('o'))"
+Start UTC: 2026-11-05T18:15:31.3306397Z
+PS C:\WINDOWS\system32> @'
+$utc = (Get-Date).ToUniversalTime().ToString("o")
+"LAB-WIN-002 execution: $utc" | Add-Content "$PSScriptRoot\run-marker.txt"
+whoami.exe | Add-Content "$PSScriptRoot\run-marker.txt"
+'@ | Set-Content "$caseRoot\lab-marker.ps1" -Encoding UTF8
+PS C:\WINDOWS\system32> Get-Content "$caseRoot\lab-marker.ps1"
+$utc = (Get-Date).ToUniversalTime().ToString("o")
+"LAB-WIN-002 execution: $utc" | Add-Content "$PSScriptRoot\run-marker.txt"
+whoami.exe | Add-Content "$PSScriptRoot\run-marker.txt"
+PS C:\WINDOWS\system32> Get-FileHash "$caseRoot\lab-marker.ps1" -Algorithm SHA256 | Format-List
+
+
+Algorithm : SHA256
+Hash      : D51C71D3F5D95847AFB8658F8FC2C8EC1FC593AB6088E49ECED8345154D431C7
+Path      : C:\SOC-Lab\LAB-WIN-002-20261105-131452\lab-marker.ps1
+
+
+
+PS C:\WINDOWS\system32> powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File "$caseRoot\lab-marker.ps1"
+
+PS C:\WINDOWS\system32> Write-Output "Script exit code: $LASTEXITCODE"
+Script exit code: 0
+PS C:\WINDOWS\system32> Get-Content "$caseRoot\run-marker.txt"
+LAB-WIN-002 execution: 2026-11-05T18:21:30.5213613Z
+desktop-p4h3q32\winlab
+PS C:\WINDOWS\system32> Get-WinEvent -FilterHashtable @{
+    LogName = 'Microsoft-Windows-Sysmon/Operational'
+    Id = 1
+    StartTime = $caseStart.ToLocalTime()
+} | Where-Object {
+    $_.Message -like "*$caseRoot\lab-marker.ps1*"
+} | Select-Object -First 1 | Format-List TimeCreated, Id, Message
+
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 1
+Message     : Process Create:
+              RuleName: -
+              UtcTime: 2026-11-05 18:21:30.585
+              ProcessGuid: {fe9444fb-c92a-6aec-da17-000000000a00}
+              ProcessId: 10372
+              Image: C:\Windows\System32\whoami.exe
+              FileVersion: 10.0.26100.1882 (WinBuild.160101.0800)
+              Description: whoami - displays logged on user information
+              Product: Microsoft® Windows® Operating System
+              Company: Microsoft Corporation
+              OriginalFileName: whoami.exe
+              CommandLine: "C:\WINDOWS\system32\whoami.exe"
+              CurrentDirectory: C:\WINDOWS\system32\
+              User: DESKTOP-P4H3Q32\WinLab
+              LogonGuid: {fe9444fb-f78d-6ae7-f6de-010000000000}
+              LogonId: 0x1DEF6
+              TerminalSessionId: 1
+              IntegrityLevel: High
+              Hashes: SHA256=23240EF9F8B0A9A324110B1C2331DE31DC1B0E08F5359CB707E51A939AF56CD3
+              ParentProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ParentProcessId: 1640
+              ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              ParentCommandLine: "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy RemoteSigned
+              -File C:\SOC-Lab\LAB-WIN-002-20261105-131452\lab-marker.ps1
+              ParentUser: DESKTOP-P4H3Q32\WinLab
+
+
+
+PS C:\WINDOWS\system32> Get-WinEvent -FilterHashtable @{
+    LogName = 'Microsoft-Windows-Sysmon/Operational'
+    Id = 1
+    StartTime = $caseStart.ToLocalTime()
+} | Where-Object {
+    $_.Message -match '(?m)^ProcessGuid:\s+\{fe9444fb-c92a-6aec-d917-000000000a00\}'
+} | Format-List TimeCreated, Id, Message
+
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 1
+Message     : Process Create:
+              RuleName: -
+              UtcTime: 2026-11-05 18:21:30.103
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              FileVersion: 10.0.26100.9549 (WinBuild.160101.0800)
+              Description: Windows PowerShell
+              Product: Microsoft® Windows® Operating System
+              Company: Microsoft Corporation
+              OriginalFileName: PowerShell.EXE
+              CommandLine: "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy RemoteSigned -File
+              C:\SOC-Lab\LAB-WIN-002-20261105-131452\lab-marker.ps1
+              CurrentDirectory: C:\WINDOWS\system32\
+              User: DESKTOP-P4H3Q32\WinLab
+              LogonGuid: {fe9444fb-f78d-6ae7-f6de-010000000000}
+              LogonId: 0x1DEF6
+              TerminalSessionId: 1
+              IntegrityLevel: High
+              Hashes: SHA256=60C9B29843624DD8AF6B6A7B26147753BE6AEEF65098B9A503CC50850AFE410F
+              ParentProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ParentProcessId: 7272
+              ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              ParentCommandLine: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
+              ParentUser: DESKTOP-P4H3Q32\WinLab
+
+
+
+PS C:\WINDOWS\system32> reg.exe query "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "SOC-Lab-WIN002"
+
+
+ERROR: The system was unable to find the specified registry key or value.
+PS C:\WINDOWS\system32> $runKey = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Run'
+PS C:\WINDOWS\system32> $runCommand = '"{0}" -NoProfile -ExecutionPolicy RemoteSigned -File "{1}"' -f "$env:SystemRoot\System32\WindowsPowerShell\v1.0\powershell.exe", "$caseRoot\lab-marker.ps1"
+PS C:\WINDOWS\system32> New-Item -Path $runKey -Force | Out-Null
+PS C:\WINDOWS\system32> New-ItemProperty -Path $runKey -Name 'SOC-Lab-WIN002' -PropertyType String -Value $runCommand -ErrorAction Stop
+
+
+SOC-Lab-WIN002 : "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy RemoteSigned -File
+                 "C:\SOC-Lab\LAB-WIN-002-20261105-131452\lab-marker.ps1"
+PSPath         : Microsoft.PowerShell.Core\Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+PSParentPath   : Microsoft.PowerShell.Core\Registry::HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion
+PSChildName    : Run
+PSDrive        : HKCU
+PSProvider     : Microsoft.PowerShell.Core\Registry
+
+
+
+PS C:\WINDOWS\system32> (Get-Date).ToUniversalTime().ToString("o")
+2026-11-05T18:41:31.0803317Z
+PS C:\WINDOWS\system32> reg.exe query "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "SOC-Lab-WIN002"
+
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+    SOC-Lab-WIN002    REG_SZ    "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy RemoteSigned -File
+ "C:\SOC-Lab\LAB-WIN-002-20261105-131452\lab-marker.ps1"
+PS C:\WINDOWS\system32> Get-WinEvent -FilterHashtable @{
+    LogName = 'Microsoft-Windows-Sysmon/Operational'
+    Id = 13
+    StartTime = $caseStart.ToLocalTime()
+} | Where-Object {
+    $_.Message -like '*\Run\SOC-Lab-WIN002*'
+} | Format-List TimeCreated, Id, Message
+
+
+TimeCreated : 11/5/2026 1:41:16 PM
+Id          : 13
+Message     : Registry value set:
+              RuleName: -
+              EventType: SetValue
+              UtcTime: 2026-11-05 18:41:16.301
+              ProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ProcessId: 7272
+              Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject:
+              HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\Run\SOC-Lab-WIN002
+              Details: "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy RemoteSigned -File
+              "C:\SOC-Lab\LAB-WIN-002-20261105-131452\lab-marker.ps1"
+              User: DESKTOP-P4H3Q32\WinLab
+
+
+
+PS C:\WINDOWS\system32> Get-Service WazuhSvc
+
+Status   Name               DisplayName
+------   ----               -----------
+Running  WazuhSvc           Wazuh
+
+
+PS C:\WINDOWS\system32> Get-Content 'C:\Program Files (x86)\ossec-agent\ossec.log' -Tail 30
+2026/11/05 10:14:32 wazuh-agent: WARNING: Agent buffer is full: Events may be lost.
+2026/11/05 10:14:56 wazuh-agent: INFO: Agent buffer is under 70 %. Working properly again.
+2026/11/05 10:25:06 wazuh-agent: ERROR: Could not EvtFormatMessage() to determine buffer size with flags (1) which returned (15031)
+2026/11/05 10:33:49 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2026/11/05 10:34:04 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2026/11/05 10:40:10 wazuh-agent: ERROR: Could not EvtFormatMessage() to determine buffer size with flags (1) which returned (15031)
+2026/11/05 11:04:53 wazuh-agent: WARNING: Agent buffer at 90 %.
+2026/11/05 11:04:54 wazuh-agent: WARNING: Agent buffer is full: Events may be lost.
+2026/11/05 11:05:19 wazuh-agent: INFO: Agent buffer is under 70 %. Working properly again.
+2026/11/05 11:26:26 wazuh-agent: WARNING: Agent buffer at 90 %.
+2026/11/05 11:26:26 wazuh-agent: WARNING: Agent buffer is full: Events may be lost.
+2026/11/05 11:26:50 wazuh-agent: INFO: Agent buffer is under 70 %. Working properly again.
+2026/11/05 11:34:05 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2026/11/05 11:34:19 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2026/11/05 12:20:35 wazuh-agent: WARNING: Agent buffer at 90 %.
+2026/11/05 12:20:51 wazuh-agent: INFO: Agent buffer is under 70 %. Working properly again.
+2026/11/05 12:34:16 wazuh-agent: WARNING: Agent buffer at 90 %.
+2026/11/05 12:34:21 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2026/11/05 12:34:22 wazuh-agent: WARNING: Agent buffer is full: Events may be lost.
+2026/11/05 12:34:35 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2026/11/05 12:34:53 wazuh-agent: INFO: Agent buffer is under 70 %. Working properly again.
+2026/11/05 12:35:32 wazuh-agent: WARNING: Agent buffer at 90 %.
+2026/11/05 12:35:32 wazuh-agent: WARNING: Agent buffer is full: Events may be lost.
+2026/11/05 12:35:57 wazuh-agent: INFO: Agent buffer is under 70 %. Working properly again.
+2026/11/05 13:04:04 wazuh-agent: WARNING: Agent buffer at 90 %.
+2026/11/05 13:04:21 wazuh-agent: INFO: Agent buffer is under 70 %. Working properly again.
+2026/11/05 13:34:36 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2026/11/05 13:34:50 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2026/11/05 13:37:48 wazuh-agent: WARNING: Agent buffer at 90 %.
+2026/11/05 13:38:27 wazuh-agent: INFO: Agent buffer is under 70 %. Working properly again.
+PS C:\WINDOWS\system32> Copy-Item 'C:\Program Files (x86)\ossec-agent\ossec.log' "$caseRoot\evidence\wazuh-agent-before-tuning.log"
+PS C:\WINDOWS\system32> Copy-Item 'C:\Tools\Sysmon\sysmon-lab.xml' "$caseRoot\evidence\sysmon-before-tuning.xml"
+PS C:\WINDOWS\system32> $registryEvents = Get-WinEvent -FilterHashtable @{
+    LogName = 'Microsoft-Windows-Sysmon/Operational'
+    Id = 13
+    StartTime = $caseStart.ToLocalTime()
+} | Where-Object {
+    $_.Message -like '*\Run\SOC-Lab-WIN002*'
+}
+PS C:\WINDOWS\system32> '<Events>' + (($registryEvents | ForEach-Object { $_.ToXml() }) -join "`r`n") + '</Events>' |
+    Set-Content "$caseRoot\evidence\run-value-set-events.xml" -Encoding UTF8
+PS C:\WINDOWS\system32> Write-Output "Registry events preserved: $(@($registryEvents).Count)"
+Registry events preserved: 1
+PS C:\WINDOWS\system32> @'
+<Sysmon schemaversion="4.82">
+  <HashAlgorithms>SHA256</HashAlgorithms>
+  <EventFiltering>
+    <ProcessCreate onmatch="exclude" />
+    <NetworkConnect onmatch="include" />
+    <DnsQuery onmatch="include" />
+    <FileCreate onmatch="include">
+      <TargetFilename condition="begin with">C:\SOC-Lab\</TargetFilename>
+      <TargetFilename condition="contains">__PSScriptPolicyTest_</TargetFilename>
+    </FileCreate>
+    <RegistryEvent onmatch="include">
+      <TargetObject condition="contains">\CurrentVersion\Run</TargetObject>
+    </RegistryEvent>
+  </EventFiltering>
+</Sysmon>
+'@ | Set-Content "$caseRoot\evidence\sysmon-tuned.xml" -Encoding UTF8
+PS C:\WINDOWS\system32> Get-Content "$caseRoot\evidence\sysmon-tuned.xml"
+<Sysmon schemaversion="4.82">
+  <HashAlgorithms>SHA256</HashAlgorithms>
+  <EventFiltering>
+    <ProcessCreate onmatch="exclude" />
+    <NetworkConnect onmatch="include" />
+    <DnsQuery onmatch="include" />
+    <FileCreate onmatch="include">
+      <TargetFilename condition="begin with">C:\SOC-Lab\</TargetFilename>
+      <TargetFilename condition="contains">__PSScriptPolicyTest_</TargetFilename>
+    </FileCreate>
+    <RegistryEvent onmatch="include">
+      <TargetObject condition="contains">\CurrentVersion\Run</TargetObject>
+    </RegistryEvent>
+  </EventFiltering>
+</Sysmon>
+PS C:\WINDOWS\system32> C:\Tools\Sysmon\Sysmon64.exe -c "$caseRoot\evidence\sysmon-tuned.xml"
+
+
+System Monitor v15.22 - System activity monitor
+By Mark Russinovich and Thomas Garnier
+Copyright (C) 2014-2026 Microsoft Corporation
+Using libxml2. libxml2 is Copyright (C) 1998-2012 Daniel Veillard. All Rights Reserved.
+Sysinternals - www.sysinternals.com
+
+Loading configuration file with schema version 4.82
+Sysmon schema version: 4.91
+Configuration file validated.
+Configuration updated.
+PS C:\WINDOWS\system32> (Get-Date).ToUniversalTime().ToString("o")
+2026-11-05T19:09:44.5712437Z
+PS C:\WINDOWS\system32> Get-Service WazuhSvc
+
+Status   Name               DisplayName
+------   ----               -----------
+Running  WazuhSvc           Wazuh
+
+
+PS C:\WINDOWS\system32> Get-Content 'C:\Program Files (x86)\ossec-agent\ossec.log' -Tail 10
+2026/11/05 12:35:57 wazuh-agent: INFO: Agent buffer is under 70 %. Working properly again.
+2026/11/05 13:04:04 wazuh-agent: WARNING: Agent buffer at 90 %.
+2026/11/05 13:04:21 wazuh-agent: INFO: Agent buffer is under 70 %. Working properly again.
+2026/11/05 13:34:36 wazuh-modulesd:syscollector: INFO: Starting evaluation.
+2026/11/05 13:34:50 wazuh-modulesd:syscollector: INFO: Evaluation finished.
+2026/11/05 13:37:48 wazuh-agent: WARNING: Agent buffer at 90 %.
+2026/11/05 13:38:27 wazuh-agent: INFO: Agent buffer is under 70 %. Working properly again.
+2026/11/05 13:53:12 wazuh-agent: WARNING: Agent buffer at 90 %.
+2026/11/05 13:53:12 wazuh-agent: WARNING: Agent buffer is full: Events may be lost.
+2026/11/05 13:53:41 wazuh-agent: INFO: Agent buffer is under 70 %. Working properly again.
+PS C:\WINDOWS\system32> $retestStart = (Get-Date).ToUniversalTime()
+PS C:\WINDOWS\system32> $retestStart.ToString("o") | Set-Content 
+Set-Content : The input object cannot be bound because it did not contain the information required to bind all 
+mandatory parameters:  Path
+At line:1 char:30
++ $retestStart.ToString("o") | Set-Content
++                              ~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (2026-11-05T19:11:57.6259684Z:String) [Set-Content], 
+ParameterBindingException
+    + FullyQualifiedErrorId : InputObjectMissingMandatory,Microsoft.PowerShell.Commands.SetContentCommand
+Set-Content : The input object cannot be bound because it did not contain the information required
+to bind all mandatory parameters:  Path
+At line:1 char:30
++ $retestStart.ToString("o") | Set-Content
++                              ~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (2026-11-05T19:11:57.6259684Z:String) [Set-Content],
+   ParameterBindingException
+    + FullyQualifiedErrorId : InputObjectMissingMandatory,Microsoft.PowerShell.Commands.SetContentCo
+   mmand
+
+PS C:\WINDOWS\system32> $retestStart.ToString("o") | Set-Content "$caseRoot\evidence\registry-retest-start-utc.txt"
+PS C:\WINDOWS\system32> $retestCommand = $runCommand.Replace('-NoProfile', '-NoLogo -NoProfile')
+PS C:\WINDOWS\system32> Set-ItemProperty -Path $runKey -Name 'SOC-Lab-WIN002' -Value $retestCommand -ErrorAction Stop
+PS C:\WINDOWS\system32> Write-Output "Retest start UTC: $($retestStart.ToString('o'))"
+Retest start UTC: 2026-11-05T19:11:57.6259684Z
+PS C:\WINDOWS\system32> reg.exe query "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "SOC-Lab-WIN002"
+
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+    SOC-Lab-WIN002    REG_SZ    "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -NoLogo -N
+oProfile -ExecutionPolicy RemoteSigned -File "C:\SOC-Lab\LAB-WIN-002-20261105-131452\lab-marker.ps1"
+PS C:\WINDOWS\system32> Get-WinEvent -FilterHashtable @{
+    LogName = 'Microsoft-Windows-Sysmon/Operational'
+    Id = 13
+    StartTime = $retestStart.ToLocalTime()
+} | Where-Object {
+    $_.Message -like '*\Run\SOC-Lab-WIN002*'
+} | Format-List TimeCreated, Id, Message
+
+
+TimeCreated : 11/5/2026 2:13:14 PM
+Id          : 13
+Message     : Registry value set:
+              RuleName: -
+              EventType: SetValue
+              UtcTime: 2026-11-05 19:13:14.433
+              ProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ProcessId: 7272
+              Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\Run\SOC-Lab-WIN002
+              Details: "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -NoLogo -NoProfile -ExecutionPolicy RemoteSigned -File
+              "C:\SOC-Lab\LAB-WIN-002-20261105-131452\lab-marker.ps1"
+              User: DESKTOP-P4H3Q32\WinLab
+
+
+
+PS C:\WINDOWS\system32> $regTestStart = (Get-Date).ToUniversalTime()
+PS C:\WINDOWS\system32> $regTestStart.ToString("o") | Set-Content "$caseRoot\evidence\reg-exe-test-start-utc.txt"
+PS C:\WINDOWS\system32> $regData = "$env:SystemRoot\System32\WindowsPowerShell\v1.0\powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy RemoteSigned -File $caseRoot\lab-marker.ps1"
+PS C:\WINDOWS\system32> reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "SOC-Lab-WIN002" /t REG_SZ /d $regData /f
+The operation completed successfully.
+PS C:\WINDOWS\system32> Write-Output "Registry command exit code: $LASTEXITCODE"
+Registry command exit code: 0
+PS C:\WINDOWS\system32> Write-Output "Test start UTC: $($regTestStart.ToString('o'))"
+Test start UTC: 2026-11-05T19:30:30.6659529Z
+PS C:\WINDOWS\system32> reg.exe query "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "SOC-Lab-WIN002"
+
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+    SOC-Lab-WIN002    REG_SZ    C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoLogo -NoProf
+ile -NonInteractive -ExecutionPolicy RemoteSigned -File C:\SOC-Lab\LAB-WIN-002-20261105-131452\lab-marker
+.ps1
+PS C:\WINDOWS\system32> $cleanupStart = (Get-Date).ToUniversalTime()
+PS C:\WINDOWS\system32> $cleanupStart.ToString("o") | Set-Content "$caseRoot\evidence\cleanup-start-utc.txt"
+PS C:\WINDOWS\system32> reg.exe delete "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "SOC-Lab-WIN002" /f
+The operation completed successfully.
+PS C:\WINDOWS\system32> Write-Output "Deletion exit code: $LASTEXITCODE"
+Deletion exit code: 0
+PS C:\WINDOWS\system32> reg.exe query "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "SOC-Lab-WIN002"
+
+
+ERROR: The system was unable to find the specified registry key or value.
+PS C:\WINDOWS\system32> Write-Output "Verification query exit code: $LASTEXITCODE"
+Verification query exit code: 1
+PS C:\WINDOWS\system32> Write-Output "Cleanup start UTC: $($cleanupStart.ToString('o'))"
+Cleanup start UTC: 2026-11-05T19:40:32.6193858Z
+PS C:\WINDOWS\system32> Get-WinEvent -FilterHashtable @{
+    LogName = 'Microsoft-Windows-Sysmon/Operational'
+    Id = 12
+    StartTime = $cleanupStart.ToLocalTime()
+} | Where-Object {
+    $_.Message -like '*\Run\SOC-Lab-WIN002*'
+} | Format-List TimeCreated, Id, Message
+
+
+TimeCreated : 11/5/2026 2:41:41 PM
+Id          : 12
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: DeleteValue
+              UtcTime: 2026-11-05 19:41:41.909
+              ProcessGuid: {fe9444fb-dbf5-6aec-6118-000000000a00}
+              ProcessId: 7064
+              Image: C:\WINDOWS\system32\reg.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\Run\SOC-Lab-WIN002
+              User: DESKTOP-P4H3Q32\WinLab
+
+
+
+PS C:\WINDOWS\system32> $caseEnd = (Get-Date).ToUniversalTime()
+PS C:\WINDOWS\system32> $caseEnd.ToString("o") | Set-Content "$caseRoot\evidence\case-end-utc.txt"
+PS C:\WINDOWS\system32> $caseEvents = Get-WinEvent -FilterHashtable @{
+    LogName = 'Microsoft-Windows-Sysmon/Operational'
+    Id = 1,11,12,13,16
+    StartTime = $caseStart.ToLocalTime()
+    EndTime = $caseEnd.ToLocalTime()
+} | Where-Object {
+    $_.Message -like "*$caseRoot*" -or
+    $_.Message -like '*SOC-Lab-WIN002*' -or
+    $_.Message -like '*fe9444fb-c92a-6aec-d917-000000000a00*'
+} | Sort-Object TimeCreated
+PS C:\WINDOWS\system32> '<Events>' + (($caseEvents | ForEach-Object { $_.ToXml() }) -join "`r`n") + '</Events>' |
+    Set-Content "$caseRoot\evidence\sysmon-case-events.xml" -Encoding UTF8
+PS C:\WINDOWS\system32> $caseEvents | Format-List TimeCreated, Id, RecordId, Message |
+    Out-File "$caseRoot\evidence\sysmon-case-events.txt" -Encoding UTF8 -Width 300
+PS C:\WINDOWS\system32> Copy-Item 'C:\Program Files (x86)\ossec-agent\ossec.log' "$caseRoot\evidence\wazuh-agent-after-tuning.log"
+PS C:\WINDOWS\system32> $caseEvents | Group-Object Id | Select-Object Name, Count
+
+Name Count
+---- -----
+11      13
+1       10
+12     248
+13      14
+16       1
+
+
+PS C:\WINDOWS\system32> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20261105145510
+**********************

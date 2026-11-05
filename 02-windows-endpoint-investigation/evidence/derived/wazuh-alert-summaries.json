@@ -1,0 +1,63 @@
+[
+  {
+    "provenance": "Analyst-normalized summary of user-supplied Wazuh JSON, corroborated against original Sysmon XML; not an original dashboard export.",
+    "index": "wazuh-alerts-4.x-2026.11.05",
+    "document_id": "FObxrKEBRLpb20Tl4isC",
+    "agent": {
+      "id": "003",
+      "name": "Win11-endpoint01",
+      "ip": "10.10.60.61"
+    },
+    "manager": "wazuh-manager",
+    "timestamp": "2026-11-05T18:21:30.191+0000",
+    "event_id": "11",
+    "event_record_id": "2705444",
+    "eventdata": {
+      "RuleName": "-",
+      "UtcTime": "2026-11-05 18:21:30.240",
+      "ProcessGuid": "{fe9444fb-c92a-6aec-d917-000000000a00}",
+      "ProcessId": "1640",
+      "Image": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "TargetFilename": "C:\\Users\\WinLab\\AppData\\Local\\Temp\\__PSScriptPolicyTest_0ybzq30o.m42.ps1",
+      "CreationUtcTime": "2026-11-05 18:21:30.240",
+      "User": "DESKTOP-P4H3Q32\\WinLab"
+    },
+    "rule": {
+      "id": "92213",
+      "level": 15,
+      "description": "Executable file dropped in folder commonly used by malware",
+      "mitre_id": "T1105"
+    }
+  },
+  {
+    "provenance": "Analyst-normalized summary of user-supplied Wazuh JSON, corroborated against original Sysmon XML; not an original dashboard export.",
+    "index": "wazuh-alerts-4.x-2026.11.05",
+    "document_id": "YuYxraEBRLpb20TlxSvS",
+    "agent": {
+      "id": "003",
+      "name": "Win11-endpoint01",
+      "ip": "10.10.60.61"
+    },
+    "manager": "wazuh-manager",
+    "timestamp": "2026-11-05T19:31:20.573+0000",
+    "event_id": "13",
+    "event_record_id": "2736761",
+    "eventdata": {
+      "RuleName": "-",
+      "EventType": "SetValue",
+      "UtcTime": "2026-11-05 19:31:19.652",
+      "ProcessGuid": "{fe9444fb-d987-6aec-4318-000000000a00}",
+      "ProcessId": "11604",
+      "Image": "C:\\WINDOWS\\system32\\reg.exe",
+      "TargetObject": "HKU\\S-1-5-21-2009194492-745510104-3443609972-1001\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\SOC-Lab-WIN002",
+      "Details": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy RemoteSigned -File C:\\SOC-Lab\\LAB-WIN-002-20261105-131452\\lab-marker.ps1",
+      "User": "DESKTOP-P4H3Q32\\WinLab"
+    },
+    "rule": {
+      "id": "92302",
+      "level": 6,
+      "description": "Registry entry to be executed on next logon was modified using command line application reg.exe",
+      "mitre_id": "T1547.001"
+    }
+  }
+]

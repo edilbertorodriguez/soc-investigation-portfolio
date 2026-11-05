@@ -1,0 +1,13 @@
+utc,event_id,record_id,finding
+2026-11-05 18:19:01.621,11,2705349,Benign marker script created
+2026-11-05 18:21:30.103,1,2705443,Child PowerShell launched marker script
+2026-11-05 18:21:30.240,11,2705444,PowerShell policy-test file created; Wazuh 92213
+2026-11-05 18:21:30.578,11,2705700,Marker output file created
+2026-11-05 18:21:30.585,1,2705701,whoami child launched
+2026-11-05 18:41:16.301,13,2717692,Initial Run value set using PowerShell
+2026-11-05 19:08:21.174,16,2736694,Sysmon tuned configuration applied
+2026-11-05 19:13:14.433,13,2736707,Run value modified using PowerShell after tuning
+2026-11-05 19:31:19.641,1,2736759,reg.exe add process created
+2026-11-05 19:31:19.652,13,2736761,Run value modified by reg.exe; Wazuh 92302
+2026-11-05 19:41:41.909,12,2736819,Run value deleted by reg.exe
+2026-11-05 19:42:05.388,1,2736821,Verification query after deletion

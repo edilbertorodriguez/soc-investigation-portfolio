@@ -1,0 +1,15 @@
+﻿<Sysmon schemaversion="4.82">
+  <HashAlgorithms>SHA256</HashAlgorithms>
+  <EventFiltering>
+    <ProcessCreate onmatch="exclude" />
+    <NetworkConnect onmatch="include" />
+    <DnsQuery onmatch="include" />
+    <FileCreate onmatch="include">
+      <TargetFilename condition="begin with">C:\SOC-Lab\</TargetFilename>
+      <TargetFilename condition="contains">__PSScriptPolicyTest_</TargetFilename>
+    </FileCreate>
+    <RegistryEvent onmatch="include">
+      <TargetObject condition="contains">\CurrentVersion\Run</TargetObject>
+    </RegistryEvent>
+  </EventFiltering>
+</Sysmon>

@@ -1,0 +1,3882 @@
+﻿
+
+TimeCreated : 11/5/2026 1:15:40 PM
+Id          : 11
+RecordId    : 2705080
+Message     : File created:
+              RuleName: -
+              UtcTime: 2026-11-05 18:15:40.089
+              ProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ProcessId: 7272
+              Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetFilename: C:\SOC-Lab\LAB-WIN-002-20261105-131452\evidence\case-start-utc.txt
+              CreationUtcTime: 2026-11-05 18:15:40.089
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:19:01 PM
+Id          : 11
+RecordId    : 2705349
+Message     : File created:
+              RuleName: -
+              UtcTime: 2026-11-05 18:19:01.621
+              ProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ProcessId: 7272
+              Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetFilename: C:\SOC-Lab\LAB-WIN-002-20261105-131452\lab-marker.ps1
+              CreationUtcTime: 2026-11-05 18:19:01.621
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 1
+RecordId    : 2705443
+Message     : Process Create:
+              RuleName: -
+              UtcTime: 2026-11-05 18:21:30.103
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              FileVersion: 10.0.26100.9549 (WinBuild.160101.0800)
+              Description: Windows PowerShell
+              Product: Microsoft® Windows® Operating System
+              Company: Microsoft Corporation
+              OriginalFileName: PowerShell.EXE
+              CommandLine: "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy RemoteSigned -File C:\SOC-Lab\LAB-WIN-002-20261105-131452\lab-marker.ps1
+              CurrentDirectory: C:\WINDOWS\system32\
+              User: DESKTOP-P4H3Q32\WinLab
+              LogonGuid: {fe9444fb-f78d-6ae7-f6de-010000000000}
+              LogonId: 0x1DEF6
+              TerminalSessionId: 1
+              IntegrityLevel: High
+              Hashes: SHA256=60C9B29843624DD8AF6B6A7B26147753BE6AEEF65098B9A503CC50850AFE410F
+              ParentProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ParentProcessId: 7272
+              ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              ParentCommandLine: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+              ParentUser: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 11
+RecordId    : 2705444
+Message     : File created:
+              RuleName: -
+              UtcTime: 2026-11-05 18:21:30.240
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetFilename: C:\Users\WinLab\AppData\Local\Temp\__PSScriptPolicyTest_0ybzq30o.m42.ps1
+              CreationUtcTime: 2026-11-05 18:21:30.240
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 11
+RecordId    : 2705445
+Message     : File created:
+              RuleName: -
+              UtcTime: 2026-11-05 18:21:30.240
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetFilename: C:\Users\WinLab\AppData\Local\Temp\__PSScriptPolicyTest_tmh3pmel.c0y.psm1
+              CreationUtcTime: 2026-11-05 18:21:30.240
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705446
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.243
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\WinTrust\Trust Providers\Software Publishing
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705447
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.261
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\CA
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705448
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.261
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\CA
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705449
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.261
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\CA\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705450
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.261
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\CA\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705451
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.261
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\CA\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705452
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.261
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\CA
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705453
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.261
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\CA\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705454
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.261
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\CA\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705455
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.261
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\CA\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705456
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.261
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\CA
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705457
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.261
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\CA
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705458
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.261
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\CA\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705459
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.261
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\CA\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705460
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.261
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\CA\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705461
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.261
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\CA
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705462
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.261
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\CA\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705463
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.261
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\CA\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705464
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\CA\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705465
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\CA
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705466
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\CA
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705467
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\CA\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705468
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\CA\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705469
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\CA\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705470
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705471
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705472
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705473
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705474
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705475
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705476
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705477
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705478
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705479
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705480
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705481
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705482
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705483
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705484
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705485
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705486
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705487
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705488
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705489
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705490
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705491
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705492
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705493
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Root
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705494
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Root
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705495
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Root\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705496
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Root\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705497
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Root\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705498
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\ROOT
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705499
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\ROOT
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705500
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\ROOT\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705501
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\ROOT\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705502
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\ROOT\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705503
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\AuthRoot
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705504
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.263
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\AuthRoot\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705505
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\AuthRoot\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705506
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\AuthRoot\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705507
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Root
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705508
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Root\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705509
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Root\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705510
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Root\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705511
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Root
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705512
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Root
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705513
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Root\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705514
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Root\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705515
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Root\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705516
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\SmartCardRoot
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705517
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\SmartCardRoot\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705518
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\SmartCardRoot\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705519
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\SmartCardRoot\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705520
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\SmartCardRoot
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705521
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\SmartCardRoot\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705522
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\SmartCardRoot\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705523
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\SmartCardRoot\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705524
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\TrustedPeople
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705525
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\TrustedPeople
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705526
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\TrustedPeople\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705527
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\TrustedPeople\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705528
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\TrustedPeople\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705529
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\TrustedPeople
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705530
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\TrustedPeople\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705531
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\TrustedPeople\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705532
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\TrustedPeople\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705533
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\TrustedPeople
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705534
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\TrustedPeople
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705535
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\TrustedPeople\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705536
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\TrustedPeople\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705537
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\TrustedPeople\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705538
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\TrustedPeople
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705539
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\TrustedPeople\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705540
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\TrustedPeople\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705541
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\TrustedPeople\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705542
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\TrustedPeople
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705543
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\TrustedPeople
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705544
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\TrustedPeople\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705545
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\TrustedPeople\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705546
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\TrustedPeople\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705547
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\trust
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705548
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\trust
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705549
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\trust\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705550
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\trust\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705551
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\trust\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705552
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\trust
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705553
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\trust\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705554
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\trust\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705555
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\trust\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705556
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\trust
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705557
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\trust
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705558
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\trust\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705559
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\trust\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705560
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\trust\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705561
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\trust
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705562
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\trust\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705563
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\trust\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705564
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\trust\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705565
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Trust
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705566
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Trust
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705567
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Trust\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705568
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Trust\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705569
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.265
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Trust\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705570
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.273
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\WinTrust\Trust Providers\Software Publishing
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705571
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705572
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705573
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705574
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705575
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705576
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705577
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705578
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705579
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705580
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705581
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705582
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705583
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705584
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705585
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705586
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705587
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705588
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705589
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705590
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705591
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705592
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705593
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.277
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705594
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.375
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\WinTrust\Trust Providers\Software Publishing
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705595
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.381
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 13
+RecordId    : 2705596
+Message     : Registry value set:
+              RuleName: -
+              EventType: SetValue
+              UtcTime: 2026-11-05 18:21:30.383
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass
+              Details: DWORD (0x00000001)
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 13
+RecordId    : 2705597
+Message     : Registry value set:
+              RuleName: -
+              EventType: SetValue
+              UtcTime: 2026-11-05 18:21:30.383
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName
+              Details: DWORD (0x00000001)
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 13
+RecordId    : 2705598
+Message     : Registry value set:
+              RuleName: -
+              EventType: SetValue
+              UtcTime: 2026-11-05 18:21:30.383
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet
+              Details: DWORD (0x00000001)
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 13
+RecordId    : 2705599
+Message     : Registry value set:
+              RuleName: -
+              EventType: SetValue
+              UtcTime: 2026-11-05 18:21:30.383
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect
+              Details: DWORD (0x00000000)
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 13
+RecordId    : 2705600
+Message     : Registry value set:
+              RuleName: -
+              EventType: SetValue
+              UtcTime: 2026-11-05 18:21:30.383
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\ProxyBypass
+              Details: DWORD (0x00000001)
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 13
+RecordId    : 2705601
+Message     : Registry value set:
+              RuleName: -
+              EventType: SetValue
+              UtcTime: 2026-11-05 18:21:30.383
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\IntranetName
+              Details: DWORD (0x00000001)
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 13
+RecordId    : 2705602
+Message     : Registry value set:
+              RuleName: -
+              EventType: SetValue
+              UtcTime: 2026-11-05 18:21:30.383
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\UNCAsIntranet
+              Details: DWORD (0x00000001)
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 13
+RecordId    : 2705603
+Message     : Registry value set:
+              RuleName: -
+              EventType: SetValue
+              UtcTime: 2026-11-05 18:21:30.383
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\Internet Settings\ZoneMap\AutoDetect
+              Details: DWORD (0x00000000)
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705604
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.422
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\WinTrust\Trust Providers\Software Publishing
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705605
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.422
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705606
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705607
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705608
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705609
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705610
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705611
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705612
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705613
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705614
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705615
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705616
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705617
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705618
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705619
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705620
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705621
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705622
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705623
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705624
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705625
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705626
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705627
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.424
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705628
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.470
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\WinTrust\Trust Providers\Software Publishing
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705629
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705630
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705631
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705632
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705633
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705634
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705635
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705636
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705637
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705638
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705639
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705640
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705641
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705642
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705643
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705644
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705645
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705646
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705647
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705648
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705649
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705650
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705651
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.472
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705652
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.490
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\WinTrust\Trust Providers\Software Publishing
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705653
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705654
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705655
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705656
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705657
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705658
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705659
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705660
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705661
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705662
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705663
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705664
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705665
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705666
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705667
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705668
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705669
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705670
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705671
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705672
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705673
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705674
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705675
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.491
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705676
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.533
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\WinTrust\Trust Providers\Software Publishing
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705677
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.533
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705678
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705679
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705680
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705681
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705682
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705683
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705684
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705685
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Policies\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705686
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705687
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705688
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705689
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705690
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705691
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705692
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705693
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705694
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Policies\Microsoft\SystemCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705695
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705696
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705697
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed\Certificates
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705698
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed\CRLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 12
+RecordId    : 2705699
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: CreateKey
+              UtcTime: 2026-11-05 18:21:30.535
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\SOFTWARE\Microsoft\EnterpriseCertificates\Disallowed\CTLs
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 11
+RecordId    : 2705700
+Message     : File created:
+              RuleName: -
+              UtcTime: 2026-11-05 18:21:30.578
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetFilename: C:\SOC-Lab\LAB-WIN-002-20261105-131452\run-marker.txt
+              CreationUtcTime: 2026-11-05 18:21:30.578
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 1
+RecordId    : 2705701
+Message     : Process Create:
+              RuleName: -
+              UtcTime: 2026-11-05 18:21:30.585
+              ProcessGuid: {fe9444fb-c92a-6aec-da17-000000000a00}
+              ProcessId: 10372
+              Image: C:\Windows\System32\whoami.exe
+              FileVersion: 10.0.26100.1882 (WinBuild.160101.0800)
+              Description: whoami - displays logged on user information
+              Product: Microsoft® Windows® Operating System
+              Company: Microsoft Corporation
+              OriginalFileName: whoami.exe
+              CommandLine: "C:\WINDOWS\system32\whoami.exe"
+              CurrentDirectory: C:\WINDOWS\system32\
+              User: DESKTOP-P4H3Q32\WinLab
+              LogonGuid: {fe9444fb-f78d-6ae7-f6de-010000000000}
+              LogonId: 0x1DEF6
+              TerminalSessionId: 1
+              IntegrityLevel: High
+              Hashes: SHA256=23240EF9F8B0A9A324110B1C2331DE31DC1B0E08F5359CB707E51A939AF56CD3
+              ParentProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ParentProcessId: 1640
+              ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              ParentCommandLine: "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy RemoteSigned -File C:\SOC-Lab\LAB-WIN-002-20261105-131452\lab-marker.ps1
+              ParentUser: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 11
+RecordId    : 2705704
+Message     : File created:
+              RuleName: -
+              UtcTime: 2026-11-05 18:21:30.612
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetFilename: C:\Users\WinLab\AppData\Local\Microsoft\Windows\PowerShell\StartupProfileData-NonInteractive
+              CreationUtcTime: 2026-11-04 16:48:23.028
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:21:30 PM
+Id          : 13
+RecordId    : 2705706
+Message     : Registry value set:
+              RuleName: -
+              EventType: SetValue
+              UtcTime: 2026-11-05 18:21:30.618
+              ProcessGuid: {fe9444fb-c92a-6aec-d917-000000000a00}
+              ProcessId: 1640
+              Image: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKLM\System\CurrentControlSet\Services\bam\State\UserSettings\S-1-5-21-2009194492-745510104-3443609972-1001\\Device\HarddiskVolume3\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              Details: Binary Data
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:36:41 PM
+Id          : 1
+RecordId    : 2710270
+Message     : Process Create:
+              RuleName: -
+              UtcTime: 2026-11-05 18:36:41.690
+              ProcessGuid: {fe9444fb-ccb9-6aec-e917-000000000a00}
+              ProcessId: 1336
+              Image: C:\Windows\System32\reg.exe
+              FileVersion: 10.0.26100.5074 (WinBuild.160101.0800)
+              Description: Registry Console Tool
+              Product: Microsoft® Windows® Operating System
+              Company: Microsoft Corporation
+              OriginalFileName: reg.exe
+              CommandLine: "C:\WINDOWS\system32\reg.exe" query HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v SOC-Lab-WIN002
+              CurrentDirectory: C:\WINDOWS\system32\
+              User: DESKTOP-P4H3Q32\WinLab
+              LogonGuid: {fe9444fb-f78d-6ae7-f6de-010000000000}
+              LogonId: 0x1DEF6
+              TerminalSessionId: 1
+              IntegrityLevel: High
+              Hashes: SHA256=EF37663B44AC66920C6F33694DEEA01ACB78AE3F3012884819373FA04C3EB5F0
+              ParentProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ParentProcessId: 7272
+              ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              ParentCommandLine: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+              ParentUser: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:41:16 PM
+Id          : 13
+RecordId    : 2717692
+Message     : Registry value set:
+              RuleName: -
+              EventType: SetValue
+              UtcTime: 2026-11-05 18:41:16.301
+              ProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ProcessId: 7272
+              Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\Run\SOC-Lab-WIN002
+              Details: "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy RemoteSigned -File "C:\SOC-Lab\LAB-WIN-002-20261105-131452\lab-marker.ps1"
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:41:26 PM
+Id          : 13
+RecordId    : 2717782
+Message     : Registry value set:
+              RuleName: -
+              EventType: SetValue
+              UtcTime: 2026-11-05 18:41:26.306
+              ProcessGuid: {fe9444fb-f78f-6ae7-5d00-000000000a00}
+              ProcessId: 4864
+              Image: C:\WINDOWS\system32\sihost.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\RunNotification\StartupTNotiSOC-Lab-WIN002
+              Details: DWORD (0x00000001)
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:41:49 PM
+Id          : 1
+RecordId    : 2717812
+Message     : Process Create:
+              RuleName: -
+              UtcTime: 2026-11-05 18:41:49.030
+              ProcessGuid: {fe9444fb-cded-6aec-0818-000000000a00}
+              ProcessId: 6060
+              Image: C:\Windows\System32\reg.exe
+              FileVersion: 10.0.26100.5074 (WinBuild.160101.0800)
+              Description: Registry Console Tool
+              Product: Microsoft® Windows® Operating System
+              Company: Microsoft Corporation
+              OriginalFileName: reg.exe
+              CommandLine: "C:\WINDOWS\system32\reg.exe" query HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v SOC-Lab-WIN002
+              CurrentDirectory: C:\WINDOWS\system32\
+              User: DESKTOP-P4H3Q32\WinLab
+              LogonGuid: {fe9444fb-f78d-6ae7-f6de-010000000000}
+              LogonId: 0x1DEF6
+              TerminalSessionId: 1
+              IntegrityLevel: High
+              Hashes: SHA256=EF37663B44AC66920C6F33694DEEA01ACB78AE3F3012884819373FA04C3EB5F0
+              ParentProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ParentProcessId: 7272
+              ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              ParentCommandLine: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+              ParentUser: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:55:55 PM
+Id          : 11
+RecordId    : 2734424
+Message     : File created:
+              RuleName: -
+              UtcTime: 2026-11-05 18:55:55.370
+              ProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ProcessId: 7272
+              Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetFilename: C:\SOC-Lab\LAB-WIN-002-20261105-131452\evidence\wazuh-agent-before-tuning.log
+              CreationUtcTime: 2026-11-05 18:55:55.368
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:56:10 PM
+Id          : 11
+RecordId    : 2734490
+Message     : File created:
+              RuleName: -
+              UtcTime: 2026-11-05 18:56:10.933
+              ProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ProcessId: 7272
+              Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetFilename: C:\SOC-Lab\LAB-WIN-002-20261105-131452\evidence\sysmon-before-tuning.xml
+              CreationUtcTime: 2026-11-05 18:56:10.933
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 1:57:24 PM
+Id          : 11
+RecordId    : 2734640
+Message     : File created:
+              RuleName: -
+              UtcTime: 2026-11-05 18:57:24.182
+              ProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ProcessId: 7272
+              Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetFilename: C:\SOC-Lab\LAB-WIN-002-20261105-131452\evidence\run-value-set-events.xml
+              CreationUtcTime: 2026-11-05 18:57:24.180
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 2:06:46 PM
+Id          : 11
+RecordId    : 2736232
+Message     : File created:
+              RuleName: -
+              UtcTime: 2026-11-05 19:06:46.943
+              ProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ProcessId: 7272
+              Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetFilename: C:\SOC-Lab\LAB-WIN-002-20261105-131452\evidence\sysmon-tuned.xml
+              CreationUtcTime: 2026-11-05 19:06:46.943
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 2:08:21 PM
+Id          : 1
+RecordId    : 2736681
+Message     : Process Create:
+              RuleName: -
+              UtcTime: 2026-11-05 19:08:21.150
+              ProcessGuid: {fe9444fb-d425-6aec-2518-000000000a00}
+              ProcessId: 3600
+              Image: C:\Tools\Sysmon\Sysmon64.exe
+              FileVersion: 15.22
+              Description: System activity monitor
+              Product: Sysinternals Sysmon
+              Company: Sysinternals - www.sysinternals.com
+              OriginalFileName: -
+              CommandLine: "C:\Tools\Sysmon\Sysmon64.exe" -c C:\SOC-Lab\LAB-WIN-002-20261105-131452\evidence\sysmon-tuned.xml
+              CurrentDirectory: C:\WINDOWS\system32\
+              User: DESKTOP-P4H3Q32\WinLab
+              LogonGuid: {fe9444fb-f78d-6ae7-f6de-010000000000}
+              LogonId: 0x1DEF6
+              TerminalSessionId: 1
+              IntegrityLevel: High
+              Hashes: SHA256=83D31F2478DC6716CFDBF69E5C384BF043072B5F0D8D7B2EEA365F709FDA4352
+              ParentProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ParentProcessId: 7272
+              ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              ParentCommandLine: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+              ParentUser: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 2:08:21 PM
+Id          : 13
+RecordId    : 2736692
+Message     : Registry value set:
+              RuleName: -
+              EventType: SetValue
+              UtcTime: 2026-11-05 19:08:21.174
+              ProcessGuid: {fe9444fb-d425-6aec-2518-000000000a00}
+              ProcessId: 3600
+              Image: C:\Tools\Sysmon\Sysmon64.exe
+              TargetObject: HKLM\System\CurrentControlSet\Services\SysmonDrv\Parameters\ConfigFile
+              Details: C:\SOC-Lab\LAB-WIN-002-20261105-131452\evidence\sysmon-tuned.xml
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 2:08:21 PM
+Id          : 16
+RecordId    : 2736694
+Message     : Sysmon config state changed:
+              UtcTime: 2026-11-05 19:08:21.174
+              Configuration: C:\SOC-Lab\LAB-WIN-002-20261105-131452\evidence\sysmon-tuned.xml
+              ConfigurationFileHash: SHA256=DC712284EE586CCB9F8FC13DF67769D9C1538E43E376DD0FFF0978D53F53BFDD
+
+TimeCreated : 11/5/2026 2:12:46 PM
+Id          : 11
+RecordId    : 2736702
+Message     : File created:
+              RuleName: -
+              UtcTime: 2026-11-05 19:12:46.507
+              ProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ProcessId: 7272
+              Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetFilename: C:\SOC-Lab\LAB-WIN-002-20261105-131452\evidence\registry-retest-start-utc.txt
+              CreationUtcTime: 2026-11-05 19:12:46.507
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 2:13:14 PM
+Id          : 13
+RecordId    : 2736707
+Message     : Registry value set:
+              RuleName: -
+              EventType: SetValue
+              UtcTime: 2026-11-05 19:13:14.433
+              ProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ProcessId: 7272
+              Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\Run\SOC-Lab-WIN002
+              Details: "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe" -NoLogo -NoProfile -ExecutionPolicy RemoteSigned -File "C:\SOC-Lab\LAB-WIN-002-20261105-131452\lab-marker.ps1"
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 2:13:54 PM
+Id          : 1
+RecordId    : 2736708
+Message     : Process Create:
+              RuleName: -
+              UtcTime: 2026-11-05 19:13:54.709
+              ProcessGuid: {fe9444fb-d572-6aec-2a18-000000000a00}
+              ProcessId: 2108
+              Image: C:\Windows\System32\reg.exe
+              FileVersion: 10.0.26100.5074 (WinBuild.160101.0800)
+              Description: Registry Console Tool
+              Product: Microsoft® Windows® Operating System
+              Company: Microsoft Corporation
+              OriginalFileName: reg.exe
+              CommandLine: "C:\WINDOWS\system32\reg.exe" query HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v SOC-Lab-WIN002
+              CurrentDirectory: C:\WINDOWS\system32\
+              User: DESKTOP-P4H3Q32\WinLab
+              LogonGuid: {fe9444fb-f78d-6ae7-f6de-010000000000}
+              LogonId: 0x1DEF6
+              TerminalSessionId: 1
+              IntegrityLevel: High
+              Hashes: SHA256=EF37663B44AC66920C6F33694DEEA01ACB78AE3F3012884819373FA04C3EB5F0
+              ParentProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ParentProcessId: 7272
+              ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              ParentCommandLine: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+              ParentUser: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 2:30:44 PM
+Id          : 11
+RecordId    : 2736758
+Message     : File created:
+              RuleName: -
+              UtcTime: 2026-11-05 19:30:44.410
+              ProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ProcessId: 7272
+              Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetFilename: C:\SOC-Lab\LAB-WIN-002-20261105-131452\evidence\reg-exe-test-start-utc.txt
+              CreationUtcTime: 2026-11-05 19:30:44.410
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 2:31:19 PM
+Id          : 1
+RecordId    : 2736759
+Message     : Process Create:
+              RuleName: -
+              UtcTime: 2026-11-05 19:31:19.641
+              ProcessGuid: {fe9444fb-d987-6aec-4318-000000000a00}
+              ProcessId: 11604
+              Image: C:\Windows\System32\reg.exe
+              FileVersion: 10.0.26100.5074 (WinBuild.160101.0800)
+              Description: Registry Console Tool
+              Product: Microsoft® Windows® Operating System
+              Company: Microsoft Corporation
+              OriginalFileName: reg.exe
+              CommandLine: "C:\WINDOWS\system32\reg.exe" add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v SOC-Lab-WIN002 /t REG_SZ /d "C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy RemoteSigned -File 
+              C:\SOC-Lab\LAB-WIN-002-20261105-131452\lab-marker.ps1" /f
+              CurrentDirectory: C:\WINDOWS\system32\
+              User: DESKTOP-P4H3Q32\WinLab
+              LogonGuid: {fe9444fb-f78d-6ae7-f6de-010000000000}
+              LogonId: 0x1DEF6
+              TerminalSessionId: 1
+              IntegrityLevel: High
+              Hashes: SHA256=EF37663B44AC66920C6F33694DEEA01ACB78AE3F3012884819373FA04C3EB5F0
+              ParentProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ParentProcessId: 7272
+              ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              ParentCommandLine: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+              ParentUser: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 2:31:19 PM
+Id          : 13
+RecordId    : 2736761
+Message     : Registry value set:
+              RuleName: -
+              EventType: SetValue
+              UtcTime: 2026-11-05 19:31:19.652
+              ProcessGuid: {fe9444fb-d987-6aec-4318-000000000a00}
+              ProcessId: 11604
+              Image: C:\WINDOWS\system32\reg.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\Run\SOC-Lab-WIN002
+              Details: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy RemoteSigned -File C:\SOC-Lab\LAB-WIN-002-20261105-131452\lab-marker.ps1
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 2:32:29 PM
+Id          : 1
+RecordId    : 2736763
+Message     : Process Create:
+              RuleName: -
+              UtcTime: 2026-11-05 19:32:29.500
+              ProcessGuid: {fe9444fb-d9cd-6aec-4418-000000000a00}
+              ProcessId: 6220
+              Image: C:\Windows\System32\reg.exe
+              FileVersion: 10.0.26100.5074 (WinBuild.160101.0800)
+              Description: Registry Console Tool
+              Product: Microsoft® Windows® Operating System
+              Company: Microsoft Corporation
+              OriginalFileName: reg.exe
+              CommandLine: "C:\WINDOWS\system32\reg.exe" query HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v SOC-Lab-WIN002
+              CurrentDirectory: C:\WINDOWS\system32\
+              User: DESKTOP-P4H3Q32\WinLab
+              LogonGuid: {fe9444fb-f78d-6ae7-f6de-010000000000}
+              LogonId: 0x1DEF6
+              TerminalSessionId: 1
+              IntegrityLevel: High
+              Hashes: SHA256=EF37663B44AC66920C6F33694DEEA01ACB78AE3F3012884819373FA04C3EB5F0
+              ParentProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ParentProcessId: 7272
+              ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              ParentCommandLine: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+              ParentUser: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 2:40:52 PM
+Id          : 11
+RecordId    : 2736815
+Message     : File created:
+              RuleName: -
+              UtcTime: 2026-11-05 19:40:52.121
+              ProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ProcessId: 7272
+              Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              TargetFilename: C:\SOC-Lab\LAB-WIN-002-20261105-131452\evidence\cleanup-start-utc.txt
+              CreationUtcTime: 2026-11-05 19:40:52.121
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 2:41:41 PM
+Id          : 1
+RecordId    : 2736818
+Message     : Process Create:
+              RuleName: -
+              UtcTime: 2026-11-05 19:41:41.901
+              ProcessGuid: {fe9444fb-dbf5-6aec-6118-000000000a00}
+              ProcessId: 7064
+              Image: C:\Windows\System32\reg.exe
+              FileVersion: 10.0.26100.5074 (WinBuild.160101.0800)
+              Description: Registry Console Tool
+              Product: Microsoft® Windows® Operating System
+              Company: Microsoft Corporation
+              OriginalFileName: reg.exe
+              CommandLine: "C:\WINDOWS\system32\reg.exe" delete HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v SOC-Lab-WIN002 /f
+              CurrentDirectory: C:\WINDOWS\system32\
+              User: DESKTOP-P4H3Q32\WinLab
+              LogonGuid: {fe9444fb-f78d-6ae7-f6de-010000000000}
+              LogonId: 0x1DEF6
+              TerminalSessionId: 1
+              IntegrityLevel: High
+              Hashes: SHA256=EF37663B44AC66920C6F33694DEEA01ACB78AE3F3012884819373FA04C3EB5F0
+              ParentProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ParentProcessId: 7272
+              ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              ParentCommandLine: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+              ParentUser: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 2:41:41 PM
+Id          : 12
+RecordId    : 2736819
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: DeleteValue
+              UtcTime: 2026-11-05 19:41:41.909
+              ProcessGuid: {fe9444fb-dbf5-6aec-6118-000000000a00}
+              ProcessId: 7064
+              Image: C:\WINDOWS\system32\reg.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\Run\SOC-Lab-WIN002
+              User: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 2:42:05 PM
+Id          : 1
+RecordId    : 2736821
+Message     : Process Create:
+              RuleName: -
+              UtcTime: 2026-11-05 19:42:05.388
+              ProcessGuid: {fe9444fb-dc0d-6aec-6218-000000000a00}
+              ProcessId: 9628
+              Image: C:\Windows\System32\reg.exe
+              FileVersion: 10.0.26100.5074 (WinBuild.160101.0800)
+              Description: Registry Console Tool
+              Product: Microsoft® Windows® Operating System
+              Company: Microsoft Corporation
+              OriginalFileName: reg.exe
+              CommandLine: "C:\WINDOWS\system32\reg.exe" query HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v SOC-Lab-WIN002
+              CurrentDirectory: C:\WINDOWS\system32\
+              User: DESKTOP-P4H3Q32\WinLab
+              LogonGuid: {fe9444fb-f78d-6ae7-f6de-010000000000}
+              LogonId: 0x1DEF6
+              TerminalSessionId: 1
+              IntegrityLevel: High
+              Hashes: SHA256=EF37663B44AC66920C6F33694DEEA01ACB78AE3F3012884819373FA04C3EB5F0
+              ParentProcessGuid: {fe9444fb-f838-6ae7-6801-000000000a00}
+              ParentProcessId: 7272
+              ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+              ParentCommandLine: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" 
+              ParentUser: DESKTOP-P4H3Q32\WinLab
+
+TimeCreated : 11/5/2026 2:46:41 PM
+Id          : 12
+RecordId    : 2736831
+Message     : Registry object added or deleted:
+              RuleName: -
+              EventType: DeleteValue
+              UtcTime: 2026-11-05 19:46:41.923
+              ProcessGuid: {fe9444fb-f78f-6ae7-5d00-000000000a00}
+              ProcessId: 4864
+              Image: C:\WINDOWS\system32\sihost.exe
+              TargetObject: HKU\S-1-5-21-2009194492-745510104-3443609972-1001\Software\Microsoft\Windows\CurrentVersion\RunNotification\StartupTNotiSOC-Lab-WIN002
+              User: DESKTOP-P4H3Q32\WinLab
+
+
+
