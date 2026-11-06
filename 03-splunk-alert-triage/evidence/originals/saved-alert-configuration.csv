@@ -1,0 +1,11 @@
+title,search,disabled,"is_scheduled","cron_schedule","dispatch.earliest_time","dispatch.latest_time","alert_type","alert_comparator","alert_threshold","alert.digest_mode","alert.suppress","alert.suppress.fields","alert.suppress.period","alert.track","alert.severity"
+"SOC-WIN003 - Encoded PowerShell Execution","index=winlab host=""DESKTOP-P4H3Q32"" source=""WinEventLog:Microsoft-Windows-Sysmon/Operational""
+| rex field=_raw ""<EventID>(?<EventCode>[0-9]+)</EventID>""
+| search EventCode=1
+| rex field=_raw ""<Data Name='Image'>(?<Image>[^<]*)</Data>""
+| rex field=_raw ""<Data Name='CommandLine'>(?<CommandLine>[^<]*)</Data>""
+| rex field=_raw ""<Data Name='ProcessGuid'>(?<ProcessGuid>[^<]*)</Data>""
+| rex field=_raw ""<Data Name='User'>(?<User>[^<]*)</Data>""
+| where like(lower(Image), ""%powershell.exe"")
+    AND match(CommandLine, ""(?i)(^|[[:space:]])-(enc|encodedcommand)[[:space:]]"")
+| table _time host User ProcessGuid CommandLine",0,1,"* * * * *","-5m",now,"number of events","greater than",0,0,1,"host,ProcessGuid",10m,1,3

@@ -1,0 +1,27 @@
+{
+  "original_manifest_files_verified": 16,
+  "sysmon_events": 14,
+  "powershell_events": 9,
+  "base64_decodes_to_saved_command": true,
+  "scheduled_alert_matches_fresh_process": true,
+  "launch_checks": [
+    {
+      "process_id": "5348",
+      "process_guid": "{fe9444fb-41ed-6aee-1f28-000000000a00}",
+      "system_test": "encoded switch detection",
+      "matched": false
+    },
+    {
+      "process_id": "4212",
+      "process_guid": "{fe9444fb-445b-6aee-6928-000000000a00}",
+      "system_test": "encoded switch detection",
+      "matched": true
+    },
+    {
+      "process_id": "8008",
+      "process_guid": "{fe9444fb-48c9-6aee-0429-000000000a00}",
+      "system_test": "encoded switch detection",
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "SOC-WIN003 - Encoded PowerShell Execution",
+  "disabled": "0",
+  "is_scheduled": "1",
+  "cron_schedule": "* * * * *",
+  "dispatch.earliest_time": "-5m",
+  "dispatch.latest_time": "now",
+  "alert_type": "number of events",
+  "alert_comparator": "greater than",
+  "alert_threshold": "0",
+  "alert.digest_mode": "0",
+  "alert.suppress": "1",
+  "alert.suppress.fields": "host,ProcessGuid",
+  "alert.suppress.period": "10m",
+  "alert.track": "1",
+  "alert.severity": "3"
+}

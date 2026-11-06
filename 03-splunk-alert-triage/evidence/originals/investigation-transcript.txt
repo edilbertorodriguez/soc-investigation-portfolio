@@ -1,0 +1,162 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20261106144604
+Username: DESKTOP-P4H3Q32\WinLab
+RunAs User: DESKTOP-P4H3Q32\WinLab
+Configuration Name: 
+Machine: DESKTOP-P4H3Q32 (Microsoft Windows NT 10.0.26300.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 7272
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\SOC-Lab\LAB-WIN-003-20261106-194438\evidence\investigation-transcript.txt
+PS C:\WINDOWS\system32> $caseStart.ToString('o') |
+    Set-Content "$caseRoot\evidence\case-start-utc.txt"
+PS C:\WINDOWS\system32> Write-Output "Case folder: $caseRoot"
+Case folder: C:\SOC-Lab\LAB-WIN-003-20261106-194438
+PS C:\WINDOWS\system32> Write-Output "Case start UTC: $($caseStart.ToString('o'))"
+Case start UTC: 2026-11-06T19:44:38.9958326Z
+PS C:\WINDOWS\system32> Write-Output "Case resumed UTC: $((Get-Date).ToUniversalTime().ToString('o'))"
+Case resumed UTC: 2026-11-06T21:03:05.0168212Z
+PS C:\WINDOWS\system32> Write-Output "Case folder: $caseRoot"
+Case folder: C:\SOC-Lab\LAB-WIN-003-20261106-194438
+PS C:\WINDOWS\system32> Test-Path "$caseRoot\evidence\case-start-utc.txt"
+True
+PS C:\WINDOWS\system32> Get-Service SplunkForwarder, Sysmon64
+
+Status   Name               DisplayName
+------   ----               -----------
+Running  SplunkForwarder    SplunkForwarder
+Running  Sysmon64           Sysmon64
+
+
+PS C:\WINDOWS\system32> $controlStart = (Get-Date).ToUniversalTime()
+PS C:\WINDOWS\system32> $controlCommand = "Set-Content -LiteralPath '$caseRoot\control-marker.txt' -Value 'SOC-WIN003-CONTROL' -Encoding ASCII"
+PS C:\WINDOWS\system32> $controlStart.ToString('o') |
+    Set-Content "$caseRoot\evidence\control-start-utc.txt"
+PS C:\WINDOWS\system32> $controlCommand |
+    Set-Content "$caseRoot\evidence\control-command.txt"
+PS C:\WINDOWS\system32> powershell.exe -NoProfile -NonInteractive -Command $controlCommand
+
+PS C:\WINDOWS\system32> $controlExit = $LASTEXITCODE
+PS C:\WINDOWS\system32> Write-Output "Control exit code: $controlExit"
+Control exit code: 0
+PS C:\WINDOWS\system32> Get-Content "$caseRoot\control-marker.txt"
+SOC-WIN003-CONTROL
+PS C:\WINDOWS\system32> $encodedCommand = "Set-Content -LiteralPath '$caseRoot\encoded-marker.txt' -Value 'SOC-WIN003-ENCODED' -Encoding ASCII"
+PS C:\WINDOWS\system32> $encodedText = [Convert]::ToBase64String(
+    [Text.Encoding]::Unicode.GetBytes($encodedCommand)
+)
+PS C:\WINDOWS\system32> $encodedCommand |
+    Set-Content "$caseRoot\evidence\encoded-command-decoded.txt"
+PS C:\WINDOWS\system32> $encodedText |
+    Set-Content "$caseRoot\evidence\encoded-command-base64.txt"
+PS C:\WINDOWS\system32> $encodedStart = (Get-Date).ToUniversalTime()
+PS C:\WINDOWS\system32> $encodedStart.ToString('o') |
+    Set-Content "$caseRoot\evidence\encoded-start-utc.txt"
+PS C:\WINDOWS\system32> powershell.exe -NoProfile -NonInteractive -EncodedCommand $encodedText
+
+PS C:\WINDOWS\system32> $encodedExit = $LASTEXITCODE
+PS C:\WINDOWS\system32> Write-Output "Encoded exit code: $encodedExit"
+Encoded exit code: 0
+PS C:\WINDOWS\system32> Get-Content "$caseRoot\encoded-marker.txt"
+SOC-WIN003-ENCODED
+PS C:\WINDOWS\system32> $alertTestStart = (Get-Date).ToUniversalTime()
+PS C:\WINDOWS\system32> $alertTestStart.ToString('o') |
+    Set-Content "$caseRoot\evidence\alert-test-start-utc.txt"
+PS C:\WINDOWS\system32> powershell.exe -NoProfile -NonInteractive -EncodedCommand $encodedText
+
+PS C:\WINDOWS\system32> $alertTestExit = $LASTEXITCODE
+PS C:\WINDOWS\system32> Write-Output "Alert test UTC: $($alertTestStart.ToString('o'))"
+Alert test UTC: 2026-11-06T21:37:29.0599214Z
+PS C:\WINDOWS\system32> Write-Output "Alert test exit code: $alertTestExit"
+Alert test exit code: 0
+PS C:\WINDOWS\system32> Get-Content "$caseRoot\encoded-marker.txt"
+SOC-WIN003-ENCODED
+PS C:\WINDOWS\system32> $collectionEnd = Get-Date
+PS C:\WINDOWS\system32> $testGuids = @(
+    'fe9444fb-41ed-6aee-1f28-000000000a00'
+    'fe9444fb-445b-6aee-6928-000000000a00'
+    'fe9444fb-48c9-6aee-0429-000000000a00'
+)
+PS C:\WINDOWS\system32> $guidPattern = ($testGuids -join '|')
+PS C:\WINDOWS\system32> $sysmonEvents = @(Get-WinEvent -FilterHashtable @{
+    LogName   = 'Microsoft-Windows-Sysmon/Operational'
+    Id        = 1,5,11
+    StartTime = $caseStart.ToLocalTime()
+    EndTime   = $collectionEnd
+} | Where-Object {
+    $_.ToXml() -match $guidPattern
+} | Sort-Object TimeCreated)
+PS C:\WINDOWS\system32> $psEvents = @(Get-WinEvent -FilterHashtable @{
+    LogName   = 'Microsoft-Windows-PowerShell/Operational'
+    Id        = 4104
+    StartTime = $caseStart.ToLocalTime()
+    EndTime   = $collectionEnd
+} | Sort-Object TimeCreated)
+PS C:\WINDOWS\system32> '<Events>' + (($sysmonEvents | ForEach-Object {
+    $_.ToXml()
+}) -join "`r`n") + '</Events>' |
+    Set-Content "$caseRoot\evidence\sysmon-test-events.xml" -Encoding UTF8
+PS C:\WINDOWS\system32> '<Events>' + (($psEvents | ForEach-Object {
+    $_.ToXml()
+}) -join "`r`n") + '</Events>' |
+    Set-Content "$caseRoot\evidence\powershell-4104-events.xml" -Encoding UTF8
+PS C:\WINDOWS\system32> $collectionEnd.ToUniversalTime().ToString('o') |
+    Set-Content "$caseRoot\evidence\collection-end-utc.txt"
+PS C:\WINDOWS\system32> Write-Output "Sysmon events exported: $($sysmonEvents.Count)"
+Sysmon events exported: 14
+PS C:\WINDOWS\system32> Write-Output "PowerShell events exported: $($psEvents.Count)"
+PowerShell events exported: 9
+PS C:\WINDOWS\system32> Copy-Item `
+    'C:\Program Files\SplunkUniversalForwarder\etc\apps\soc_winlab\local\inputs.conf' `
+    "$caseRoot\evidence\forwarder-inputs.conf"
+PS C:\WINDOWS\system32> reg.exe export `
+    "HKLM\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging" `
+    "$caseRoot\evidence\script-block-logging-policy.reg" /y
+The operation completed successfully.
+PS C:\WINDOWS\system32> Get-ChildItem "$caseRoot\evidence" |
+    Select-Object Name, Length
+
+Name                            Length
+----                            ------
+alert-test-start-utc.txt            30
+case-start-utc.txt                  30
+collection-end-utc.txt              30
+control-command.txt                130
+control-start-utc.txt               30
+encoded-command-base64.txt         346
+encoded-command-decoded.txt        130
+encoded-start-utc.txt               30
+forwarder-inputs.conf              324
+investigation-transcript.txt         0
+powershell-4104-events.xml        8740
+script-block-logging-policy.reg    348
+sysmon-test-events.xml           18409
+
+
+PS C:\WINDOWS\system32> clear
+PS C:\WINDOWS\system32> Copy-Item "$caseRoot\control-marker.txt" "$caseRoot\evidence\control-marker.txt"
+PS C:\WINDOWS\system32> Copy-Item "$caseRoot\encoded-marker.txt" "$caseRoot\evidence\encoded-marker.txt"
+PS C:\WINDOWS\system32> Remove-Item "$caseRoot\control-marker.txt", "$caseRoot\encoded-marker.txt"
+PS C:\WINDOWS\system32> Write-Output "Control marker still present: $(Test-Path "$caseRoot\control-marker.txt")"
+Control marker still present: False
+PS C:\WINDOWS\system32> Write-Output "Encoded marker still present: $(Test-Path "$caseRoot\encoded-marker.txt")"
+Encoded marker still present: False
+PS C:\WINDOWS\system32> $caseEnd = (Get-Date).ToUniversalTime()
+PS C:\WINDOWS\system32> $caseEnd.ToString('o') |
+    Set-Content "$caseRoot\evidence\case-end-utc.txt"
+PS C:\WINDOWS\system32> Write-Output "Case end UTC: $($caseEnd.ToString('o'))"
+Case end UTC: 2026-11-06T22:23:05.4307219Z
+PS C:\WINDOWS\system32> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20261106172346
+**********************

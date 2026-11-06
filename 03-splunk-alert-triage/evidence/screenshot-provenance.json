@@ -1,0 +1,158 @@
+[
+  {
+    "original_upload_name": "image(20261106-145137).png",
+    "package_path": "evidence/screenshots/01-receiver-port-connectivity.png",
+    "sha256": "b551609cd51dd995406d5c8b892541e57101a46941c0405316e59806d8917fab",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-154524).png",
+    "package_path": "evidence/screenshots/02-active-forwarder.png",
+    "sha256": "27d597b4c6f8c4966740b6546baf5a5df591fa10c68be7656928c11abbb066bf",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-155706).png",
+    "package_path": "evidence/screenshots/03-sysmon-access-denied.png",
+    "sha256": "83fa00665ceb02f1d29d97ace370ed7a28e2bb0018f3dae4cdaad23a3a0ecab5",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-161753).png",
+    "package_path": "evidence/screenshots/04-ingestion-after-permission-fix.png",
+    "sha256": "33fe6205763da2e08e9ddb2d91425bee68f9d28cacf5464836671677ba38fcbb",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-165744).png",
+    "package_path": "evidence/screenshots/05-powershell-channel-ingestion.png",
+    "sha256": "6f18825c9728cfb47ff07d94795e02ac850afe21eb7d75ffaa1597d2e69849d5",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-183510).png",
+    "package_path": "evidence/screenshots/06-script-block-policy-before-change.png",
+    "sha256": "bfb99defaf43e36eddcebfd2750b74a1aa7db37ceee99da0bdad311d6cc5f124",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-185653).png",
+    "package_path": "evidence/screenshots/07-local-script-block-test.png",
+    "sha256": "5a6b0701e4405d6f87e9f67e9ac7e5a7b5ddfa14afa8d96b428cd65c42268a2c",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-193454).png",
+    "package_path": "evidence/screenshots/08-fields-before-extraction.png",
+    "sha256": "3c952129d0027ebbb0fb6a3b2cb50902aabeb73562dda85000ab559001dd5c2c",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-193605).png",
+    "package_path": "evidence/screenshots/09-script-block-extraction.png",
+    "sha256": "1583bdf225080c6d61c85f191b58a7120ccc801ab8af56d800d671881774b343",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-193730).png",
+    "package_path": "evidence/screenshots/10-sysmon-process-extraction.png",
+    "sha256": "dea70cfebf19f13a2bcf52d2893387164a7e27942377e2c7c2360c1dd5c098db",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-205243).png",
+    "package_path": "evidence/screenshots/11-case-folder-and-transcript.png",
+    "sha256": "0054999d1e89757bcbf76305b8263de6f47770d468c0c10601a0cbd159f51af8",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-210458).png",
+    "package_path": "evidence/screenshots/12-case-resume-services.png",
+    "sha256": "63f6855d60f4021217c0c4e830cca4579341c76389157828b8162b934deefb3f",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-211027).png",
+    "package_path": "evidence/screenshots/13-unencoded-control.png",
+    "sha256": "a01077f1b4de5336e3ca3bfaa51f680a1adae124ed51c490e8b2ac7d46727d48",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-212120).png",
+    "package_path": "evidence/screenshots/14-encoded-test.png",
+    "sha256": "852c3288939330676ab93ad20006eda7ae2fe76fb3326490bcd682622b22da03",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-212221).png",
+    "package_path": "evidence/screenshots/15-process-comparison.png",
+    "sha256": "db7ed91e11ef8499879fac49e6624eb46cd7e4861ff31fa4ec2af3068fa6c4bc",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-212514).png",
+    "package_path": "evidence/screenshots/16-decoded-script-correlation.png",
+    "sha256": "1b6e291a21833d76f9794fec8e52e29c4e045d81526e8f0127f967d0300f1813",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-212649).png",
+    "package_path": "evidence/screenshots/17-first-encoded-file-creation.png",
+    "sha256": "093497551f2c280586ac5dca053f130ecb4636af184c0c71654aee4418202ed7",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-212808).png",
+    "package_path": "evidence/screenshots/18-detection-positive-result.png",
+    "sha256": "add4910a9b6664ba95eae800fd7aabca477bd63e987b7bb2b975b24c472ebc80",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-213427).png",
+    "package_path": "evidence/screenshots/19-alert-enabled-before-test.png",
+    "sha256": "c84f84d40d279c4d915a454e3140c85b13a65f9fd23bed4ef84e806d9d629642",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-214415).png",
+    "package_path": "evidence/screenshots/20-fresh-encoded-launch.png",
+    "sha256": "d185e0d034c7d201d4a27b69e8c22a3050e3e91f74241e4e7fe909dab0de3f60",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-214939).png",
+    "package_path": "evidence/screenshots/21-scheduled-trigger-history.png",
+    "sha256": "6f92285d6d3bda2ee70c339818e9f2548b71417608b251327134a9c96bc392bb",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-215215).png",
+    "package_path": "evidence/screenshots/22-scheduled-alert-result.png",
+    "sha256": "f7641368262d4bbc96444090db9be48c0c5d0fba09ebd6fa980a2ffab888cf62",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-220013).png",
+    "package_path": "evidence/screenshots/23-event-export-counts.png",
+    "sha256": "c26166fb6407cb620b007f914d32b43c841ef3295175925585f1911b27228611",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-220654).png",
+    "package_path": "evidence/screenshots/24-configuration-preservation.png",
+    "sha256": "da268b90b4a81a3ddabf01c9f5e934e06e6967989c170a157b3575cb0358c724",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-221001).png",
+    "package_path": "evidence/screenshots/25-alert-settings-export.png",
+    "sha256": "324ea8628a5e513b41eb3e0719f4cae3148f340c3cb8eb35f7a9437632fa4a3b",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  },
+  {
+    "original_upload_name": "image(20261106-222450).png",
+    "package_path": "evidence/screenshots/26-cleanup-and-transcript-closed.png",
+    "sha256": "7ca603fe2f816f65e13d78fede5be1bdcdbba01ffb025dbc2f588e038ef8f2a9",
+    "note": "Filename timestamp identifies upload; use event timestamps for chronology."
+  }
+]

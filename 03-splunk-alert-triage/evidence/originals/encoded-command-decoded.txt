@@ -1,0 +1,1 @@
+Set-Content -LiteralPath 'C:\SOC-Lab\LAB-WIN-003-20261106-194438\encoded-marker.txt' -Value 'SOC-WIN003-ENCODED' -Encoding ASCII

@@ -1,0 +1,10 @@
+index=winlab host="DESKTOP-P4H3Q32" source="WinEventLog:Microsoft-Windows-Sysmon/Operational"
+| rex field=_raw "<EventID>(?<EventCode>[0-9]+)</EventID>"
+| search EventCode=1
+| rex field=_raw "<Data Name='Image'>(?<Image>[^<]*)</Data>"
+| rex field=_raw "<Data Name='CommandLine'>(?<CommandLine>[^<]*)</Data>"
+| rex field=_raw "<Data Name='ProcessGuid'>(?<ProcessGuid>[^<]*)</Data>"
+| rex field=_raw "<Data Name='User'>(?<User>[^<]*)</Data>"
+| where like(lower(Image), "%powershell.exe")
+    AND match(CommandLine, "(?i)(^|[[:space:]])-(enc|encodedcommand)[[:space:]]")
+| table _time host User ProcessGuid CommandLine
